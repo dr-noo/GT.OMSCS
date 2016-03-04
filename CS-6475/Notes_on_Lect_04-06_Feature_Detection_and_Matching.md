@@ -6,3 +6,6 @@ Objectives
 - Harris Corner Detection Algorithm
 - SIFT
 
+Scale Invariant Detection
+-------------------------
+- 
