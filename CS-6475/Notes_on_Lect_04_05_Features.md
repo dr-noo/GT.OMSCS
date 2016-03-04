@@ -26,3 +26,25 @@ Goals - Find points in an image that can be
 
 Characteristics of Good Features
 --------------------------------
+- Repeatability/Precision
+- Saliency/Matchability
+- Compactness and Efficiency
+- Locality
+
+Find Corders
+------------
+- Key property: In the region around a corner, image gradient has two or more dominant directions
+- Corners are repeatable and distinctive
+
+Corner Detection: The Basics
+----------------------------
+"flat" : No change in any direction
+"edge" : No change along the edge direction
+"corner" : Change in all direction
+- Recognize a point by looking through a small window
+- Shifting a window in any direction causes a large change in intensity
+
+Corner Detection: Mathematics
+-----------------------------
+Compute the change in appearance by shifting the window by u,v:
+E(u,v) = sum_{x,y}_{w(x,y)[I(x+u,y+v) - I(x,y)]^2
