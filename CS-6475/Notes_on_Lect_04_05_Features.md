@@ -20,9 +20,9 @@ Image Matching
 Finding Features
 ----------------
 Goals - Find points in an image that can be 
--- found in other images
--- found precisely - well localized
--- found reliably - well matched
+ - found in other images
+ - found precisely - well localized
+ - found reliably - well matched
 
 Characteristics of Good Features
 --------------------------------
